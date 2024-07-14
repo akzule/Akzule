@@ -9,7 +9,7 @@ Soy nuevo en ésto del Open Source y proyectos de programación.
 * Buscando un proyecto dónde introducirme al trabajo colaborativo para aprender sobre Github y adquirir experiencia cómo pogramador.
 * Un proyecto de plantillas y esquemas para Add-ons de Minecraft Bedrock Edition.
 * Diseñando un Add-ons básico para adquirir experiencia junto a nuestro diseñador gráfico (experimentado en diseño).
-* 
+
 <!--
 **akzule/akzule** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
