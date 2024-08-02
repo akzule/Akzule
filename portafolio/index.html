@@ -1,34 +1,68 @@
+<!-- 
+https://developers.google.com/fonts?hl=es-419
+https://acorn.firefox.com/latest/acorn-aRSAh0Sp
+https://developers.google.com/search/docs?hl=es-419
+
+Etiquetas o Elementos (no case sensitive) y Atributos
+caracter reference: (< &lt;) (> &gt;) (" &quot;) (' &apos;) (& &amp;)
+
+pendientes <abbr> para abreviaturas, desenvolver la primera vez y se puede usar title.
+<address> para datos de contacto dentro de <article> o pie de pagina del body.
+<sub> sub indice y <sup> super indice.
+<code> marca codigo, <pre> con espacios tal cual, <var> variables, <kbd> entradas, <samp> salidas.
+<time datetime="2024-07-2">2 de agosto 2024</time>
+
+-->
+
 <!doctype html>
 <html lang="es-ES">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Akzule" />
+    <meta name="description" content="Prototipo de pagina portafolio." />
+    
     <title>Portafolio Akzule</title>
-    
-    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="styles/style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    <script src="scripts/main.js" defer> </script>
   </head>
-  
   <body>
-    <!-- H1 - H4 -->
-    <h1>Portafolio Akzule</h1>
-    <img src="pack-icon.png" alt="Icono, cuatro cuadrados de color azul, verde, rojo, amarillo que forman uno mayor, tienen bordes de un tono mas oscuro." />
-    <p>Esta web es un prototipo de portafolio profesional en donde podremos ver:</p>
+    <!-- <H1>-<H6>, cursiva: <em>, negrita: <strong> (estos ultimos altera los lectores de pantalla) -->
+    <!-- Elementos de presentacion en desuso: cursiva <i>, negrita <b>, subrayado <u> -->
+    <h1><em> Portafolio Akzule </em></h1>
+    <img src="images/pack-icon.png" width="100" height="100" alt="Icono, cuatro cuadrados de color azul, verde, rojo, amarillo que forman uno mayor, tienen bordes de un tono mas oscuro." />
     
-    <!-- Listas desordenadas ul y ordenadas ol -->
+    <p> Esta web es un <strong>prototipo</strong> de portafolio profesional que temporalmente sera usada como una web plantilla. Posterior a su uso como plantilla presentare los siguientes aspectos de mi: </p>
+    
+    <!-- Listas desordenadas <ul> y ordenadas <ol> -->
     <ul>
-      <li>Experiencia previa.</li>
-      <li>Proyeccion a corto y largo plazo.</li>
-      <li>Proyectos actuales en relacion con:
+      <li> Experiencia previa. </li>
+      <li> Proyeccion a corto y largo plazo. </li>
+      <li> Proyectos actuales en relacion con:
         <ol>
-          <li>Informatica.</li>
-          <li>Matematica.</li>
-          <li>Ciencia.</li>
-          <li>Educacion.</li>
+          <li> Informatica. </li>
+          <li> Matematica. </li>
+          <li> Ciencia. </li>
+          <li> Educacion. </li>
         </ol>
       </li>
     </ul>
-    <a href="https://github.com/akzule">About me</a>
-    <script src="main.js"></script>
+    
+    <!-- Lista descriptiva -->
+    <dl>
+      <dt><strong> Informatica. </strong></dt>
+      <dd> Ciencia especializada en el estudio de la informacion
+      ordenada en sus diversas formas, digitales o no digitales. </dd>
+    </dl>
+    
+    <!-- Cualquier elemento puede ser un hiper vinculo. Podemos ir a un Document Fragment con href="documento.html#id" o href="#id" -->
+    <a href="https://github.com/akzule" title="Web personal de Github."><cite> Perfil de Github </cite></a>
+    <q cite="https://github.com/akzule"> ✨✨ Apasionado por el conocimiento, las ciencias exactas, la educación y los videojuegos!! Siempre dispuesto a ayudar a otros. 🌚🌝 </q>
+    <blockquote cite="https://github.com/akzule"> 🌚🌝 Soy nuevo en ésto del Open Source y proyectos de programación aunque ya tengo experiencia diseñando modelos gracias a mi experiencia cómo estudiante de matemáticas y experiencia previa estudiando multiples areas tecnológicas cómo informática, computación y electrónica. 🥀 A pesar qué no tenga mucha experiencia en proyectos grandes... espero ser útil!! 🦈🧠✨✨ </blockquote>
+    
+    <a href="mailto:correo_1,correo_2?cc=correo_3&bcc=correo_4&subject=Asunto.&body=Texto%20de%20cuerpo."> Escribir correo </a>
+    <!-- <button disabled> Explotar </button> -->
   </body>
 </html>
